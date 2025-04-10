@@ -17,9 +17,27 @@
   border-radius: 2px; /* ← 이게 둥글게 만드는 부분! */
   padding: 5px 10px; /* 위아래 10px, 좌우 20px */
   cursor: pointer;
+  font-size: 14px;
   font-weight: bold; /* 글씨 굵게 */
 }
 
 .appDownload-button:hover {
-    background-color: #ff8f40; /* 원래 색보다 살짝 하얀 느낌 나는 밝은 주황 */
+  background-color: #ff8f40; /* 원래 색보다 살짝 하얀 느낌 나는 밝은 주황 */
+}
+
+.location-keyword-banner {
+  display: flex;
+  justify-content: center; /* 가로 중앙 */
+  align-items: center;     /* 세로 중앙 */
+  margin-top: 128px;
+  margin-bottom: 64px;
+}
+
+.Marker-icon {
+  width: 52px;
+  height: 52px;
+}
+
+.location-keyword-banner-name {
+  font-size: 38px;
 }
