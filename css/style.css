@@ -45,6 +45,7 @@
 .location-search-container {
   display: flex;
   justify-content: center;
+  gap: 16px;
 }
 
 .location-button {
@@ -67,4 +68,60 @@
 
 .location-button:hover {
   background-color: #3A3F44; /* 원래 색보다 살짝 하얀 느낌 나는 밝은 주황 */
+}
+
+.category-search-container {
+  width: 600px;
+  height: 48px;
+  background-color: #ffffff;
+  border-radius: 32px; /* 숫자가 클수록 더 둥글어져 */
+  border: 1px solid #ccc; /* 연한 회색 외곽선 */
+}
+
+.Category-Dropdown-caret-down-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Category-Dropdown {
+  margin-right: 0.5rem;
+}
+
+.caretIcon {
+  margin-right: 0.5rem;
+}
+
+.search-bar {
+  border: none;
+}
+
+.vertical-line {
+  width: 1px;
+  height: 20px; /* 세로선의 길이 */
+  background-color: #ccc; /* 세로선의 색 */
+  margin-right: 0.5rem;
+}
+
+.search-bar {
+  width: 450px;
+}
+
+.circle {
+  width: 30px;
+  height: 30px;
+  background-color: #1A1C20;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.circle:hover {
+  background-color:#3A3F44;
+}
+
+.arrowRight {
+  color: #ffffff;
 }
