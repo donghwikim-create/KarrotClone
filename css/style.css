@@ -28,14 +28,14 @@
 .location-keyword-banner {
   display: flex;
   justify-content: center; /* 가로 중앙 */
-  align-items: center;     /* 세로 중앙 */
+  align-items: center; /* 세로 중앙 */
   margin-top: 128px;
   margin-bottom: 64px;
   gap: 16px;
 }
 
 .bannerMaker {
-  font-size: 40px;  /* 아이콘 크기를 40px로 설정 */
+  font-size: 40px; /* 아이콘 크기를 40px로 설정 */
 }
 
 .location-keyword-banner-name {
@@ -51,11 +51,11 @@
 .location-button {
   display: flex;
   justify-content: center; /* 가로 중앙 */
-  align-items: center;     /* 세로 중앙 */
+  align-items: center; /* 세로 중앙 */
   padding-left: 16px;
   padding-right: 16px;
   border-radius: 32px; /* 숫자가 클수록 더 둥글어져 */
-  background-color: #1A1C20;
+  background-color: #1a1c20;
   color: white;
   width: 130px;
   height: 48px;
@@ -67,7 +67,7 @@
 }
 
 .location-button:hover {
-  background-color: #3A3F44; /* 원래 색보다 살짝 하얀 느낌 나는 밝은 주황 */
+  background-color: #3a3f44; /* 원래 색보다 살짝 하얀 느낌 나는 밝은 주황 */
 }
 
 .category-search-container {
@@ -110,7 +110,7 @@
 .circle {
   width: 30px;
   height: 30px;
-  background-color: #1A1C20;
+  background-color: #1a1c20;
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -119,9 +119,45 @@
 }
 
 .circle:hover {
-  background-color:#3A3F44;
+  background-color: #3a3f44;
 }
 
 .arrowRight {
   color: #ffffff;
+}
+
+.popular-keywords-list-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 177px;
+}
+
+.popular-keywords-label {
+  color: #868b94;
+  margin-right: 16px;
+  font-size: 14px;
+}
+
+.popular-keywords-list {
+  display: flex;
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  gap: 1rem;
+}
+
+.popular-keywords-item {
+  color: #586070;
+  font-size: 14px;
+}
+
+.popular-keywords-item-link {
+  text-decoration: none; /* 기본 밑줄 제거 */
+  color: inherit; /* 색상은 기본 상속 */
+}
+
+.popular-keywords-item-link:hover {
+  text-decoration: underline;
 }
