@@ -261,3 +261,20 @@
   height: 26px;
   margin-bottom: 24px;
 }
+
+.footer-sns-cotainer {
+}
+
+.footerFacebook {
+  font-size: 24px;
+  margin-right: 16px;
+}
+
+.footerInstargram {
+  font-size: 24px;
+  margin-right: 16px;
+}
+
+.footerYouTube {
+  font-size: 24px;
+}
