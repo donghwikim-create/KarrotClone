@@ -251,3 +251,13 @@
   white-space: nowrap;
   font-size: 14px;
 }
+
+.footer-container {
+  padding: 0px 64px;
+}
+
+.footer-logo {
+  width: 52px;
+  height: 26px;
+  margin-bottom: 24px;
+}
