@@ -289,7 +289,6 @@
 }
 
 .footer-nav-company {
-  
 }
 
 .footer-company-container {
@@ -305,32 +304,59 @@
 .company-info {
   font-size: 14px;
   margin-bottom: 8px;
+  cursor: pointer;
+}
+
+.company-info:hover {
+  color: #595959;
 }
 
 .karrot-pay {
   font-size: 14px;
   margin-bottom: 8px;
+  cursor: pointer;
+}
+
+.karrot-pay:hover {
+  color: #595959;
 }
 
 .team-culture {
   font-size: 14px;
   margin-bottom: 8px;
+  cursor: pointer;
+}
+
+.team-culture:hover {
+  color: #595959;
 }
 
 .service-info {
   font-size: 14px;
   margin-bottom: 8px;
+  cursor: pointer;
+}
+
+.service-info:hover {
+  color: #595959;
 }
 
 .blog {
   font-size: 14px;
   margin-bottom: 8px;
+  cursor: pointer;
+}
+
+.blog:hover {
+  color: #595959;
 }
 
 .Recruitment {
   font-size: 14px;
+  margin-bottom: 8px;
+  cursor: pointer;
 }
 
-
-
-
+.Recruitment:hover {
+  color: #595959;
+}
