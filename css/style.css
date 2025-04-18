@@ -1,8 +1,10 @@
 .header {
-  padding: 0 80px; /* 상하는 0, 좌우는 80px */
+  padding: 0 80px;
+  /* 상하는 0, 좌우는 80px */
   display: flex;
   align-items: center;
-  justify-content: space-between; /* 좌우로 끝 정렬 */
+  justify-content: space-between;
+  /* 좌우로 끝 정렬 */
 }
 
 .logo-image {
@@ -13,29 +15,37 @@
 .appDownload-button {
   background-color: #ff6f0f;
   color: white;
-  border: none; /* 테두리 제거 */
-  border-radius: 2px; /* ← 이게 둥글게 만드는 부분! */
-  padding: 5px 10px; /* 위아래 10px, 좌우 20px */
+  border: none;
+  /* 테두리 제거 */
+  border-radius: 2px;
+  /* ← 이게 둥글게 만드는 부분! */
+  padding: 5px 10px;
+  /* 위아래 10px, 좌우 20px */
   cursor: pointer;
   font-size: 14px;
-  font-weight: bold; /* 글씨 굵게 */
+  font-weight: bold;
+  /* 글씨 굵게 */
 }
 
 .appDownload-button:hover {
-  background-color: #ff8f40; /* 원래 색보다 살짝 하얀 느낌 나는 밝은 주황 */
+  background-color: #ff8f40;
+  /* 원래 색보다 살짝 하얀 느낌 나는 밝은 주황 */
 }
 
 .location-keyword-banner {
   display: flex;
-  justify-content: center; /* 가로 중앙 */
-  align-items: center; /* 세로 중앙 */
+  justify-content: center;
+  /* 가로 중앙 */
+  align-items: center;
+  /* 세로 중앙 */
   margin-top: 128px;
   margin-bottom: 64px;
   gap: 16px;
 }
 
 .bannerMaker {
-  font-size: 40px; /* 아이콘 크기를 40px로 설정 */
+  font-size: 40px;
+  /* 아이콘 크기를 40px로 설정 */
 }
 
 .location-keyword-banner-name {
@@ -50,11 +60,14 @@
 
 .location-button {
   display: flex;
-  justify-content: center; /* 가로 중앙 */
-  align-items: center; /* 세로 중앙 */
+  justify-content: center;
+  /* 가로 중앙 */
+  align-items: center;
+  /* 세로 중앙 */
   padding-left: 16px;
   padding-right: 16px;
-  border-radius: 32px; /* 숫자가 클수록 더 둥글어져 */
+  border-radius: 32px;
+  /* 숫자가 클수록 더 둥글어져 */
   background-color: #1a1c20;
   color: white;
   width: 130px;
@@ -67,15 +80,18 @@
 }
 
 .location-button:hover {
-  background-color: #3a3f44; /* 원래 색보다 살짝 하얀 느낌 나는 밝은 주황 */
+  background-color: #3a3f44;
+  /* 원래 색보다 살짝 하얀 느낌 나는 밝은 주황 */
 }
 
 .category-search-container {
   width: 600px;
   height: 48px;
   background-color: #ffffff;
-  border-radius: 32px; /* 숫자가 클수록 더 둥글어져 */
-  border: 1px solid #ccc; /* 연한 회색 외곽선 */
+  border-radius: 32px;
+  /* 숫자가 클수록 더 둥글어져 */
+  border: 1px solid #ccc;
+  /* 연한 회색 외곽선 */
 }
 
 .Category-Dropdown-caret-down-container {
@@ -98,8 +114,10 @@
 
 .vertical-line {
   width: 1px;
-  height: 20px; /* 세로선의 길이 */
-  background-color: #ccc; /* 세로선의 색 */
+  height: 20px;
+  /* 세로선의 길이 */
+  background-color: #ccc;
+  /* 세로선의 색 */
   margin-right: 0.5rem;
 }
 
@@ -154,8 +172,10 @@
 }
 
 .popular-keywords-item-link {
-  text-decoration: none; /* 기본 밑줄 제거 */
-  color: inherit; /* 색상은 기본 상속 */
+  text-decoration: none;
+  /* 기본 밑줄 제거 */
+  color: inherit;
+  /* 색상은 기본 상속 */
 }
 
 .popular-keywords-item-link:hover {
@@ -229,7 +249,8 @@
 
 .recommend-region-list {
   display: flex;
-  flex-wrap: wrap; /* 최대 길이 넘어갈시 줄바꿈 */
+  flex-wrap: wrap;
+  /* 최대 길이 넘어갈시 줄바꿈 */
   list-style: none;
   margin: 0px;
   padding: 0px;
@@ -262,8 +283,7 @@
   margin-bottom: 24px;
 }
 
-.footer-sns-cotainer {
-}
+.footer-sns-cotainer {}
 
 .footerFacebook {
   font-size: 24px;
@@ -354,10 +374,6 @@
 }
 
 .Recruitment {
-.real-estate:hover {
-  color: #595959;
-}
-.used-car {
   font-size: 14px;
   margin-bottom: 8px;
   cursor: pointer;
@@ -365,31 +381,79 @@
 
 .Recruitment:hover {
   color: #595959;
+}
+
+.footer-Exploration-conatiner {
+  display: flex;
+  flex-direction: column;
+  margin-right: 100px;
+}
+
+.footer-Exploration {
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.Peer-to-peer-marketplace {
+  font-size: 14px;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+.Peer-to-peer-marketplace:hover {
+  color: #595959;
+}
+
+.real-estate {
+  font-size: 14px;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+.real-estate:hover {
+  color: #595959;
+}
+
+.used-car {
+  font-size: 14px;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
 .used-car:hover {
   color: #595959;
 }
+
+.part-time-job {
+  font-size: 14px;
+  margin-bottom: 8px;
+  cursor: pointer;
 }
 
 .part-time-job:hover {
   color: #595959;
 }
+
 .local-business {
   font-size: 14px;
   margin-bottom: 8px;
   cursor: pointer;
-
-  color: #595959;
-.local-business:hover {
 }
+
+.local-business:hover {
+  color: #595959;
+}
+
 .neighborhood-life {
+  font-size: 14px;
   margin-bottom: 8px;
   cursor: pointer;
-  font-size: 14px;
 }
 
 .neighborhood-life:hover {
   color: #595959;
 }
+
 
 .group-meeting {
   font-size: 14px;
