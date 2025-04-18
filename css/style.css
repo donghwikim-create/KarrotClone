@@ -253,7 +253,7 @@
 }
 
 .footer-container {
-  padding: 0px 64px;
+  padding: 0px 80px;
 }
 
 .footer-logo {
@@ -278,3 +278,59 @@
 .footerYouTube {
   font-size: 24px;
 }
+
+.footer-sns-nav-container {
+  display: flex;
+  padding: 64px 0px;
+}
+
+.footer-logo-nav-container {
+  margin-right: 300px;
+}
+
+.footer-nav-company {
+  
+}
+
+.footer-company-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-company {
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.company-info {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.karrot-pay {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.team-culture {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.service-info {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.blog {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.Recruitment {
+  font-size: 14px;
+}
+
+
+
+
