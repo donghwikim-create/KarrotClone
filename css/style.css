@@ -289,12 +289,13 @@
 }
 
 .footer-nav-company {
-  
+  display: flex;
 }
 
 .footer-company-container {
   display: flex;
   flex-direction: column;
+  margin-right: 100px;
 }
 
 .footer-company {
@@ -329,8 +330,55 @@
 
 .Recruitment {
   font-size: 14px;
+  margin-bottom: 8px;
 }
 
+.footer-Exploration-conatiner {
+  display: flex;
+  flex-direction: column;
+}
 
+.footer-Exploration {
+  font-weight: bold;
+  margin-bottom: 12px;
+}
 
+.Peer-to-peer-marketplace {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
 
+.real-estate {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.used-car {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.part-time-job {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.local-business {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.neighborhood-life {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.group-meeting {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.chat-window {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
