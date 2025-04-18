@@ -346,39 +346,80 @@
 .Peer-to-peer-marketplace {
   font-size: 14px;
   margin-bottom: 8px;
+  cursor: pointer;
+}
+
+.Peer-to-peer-marketplace:hover {
+  color: #595959;
 }
 
 .real-estate {
   font-size: 14px;
   margin-bottom: 8px;
+  cursor: pointer;
+}
+
+.real-estate:hover {
+  color: #595959;
 }
 
 .used-car {
   font-size: 14px;
   margin-bottom: 8px;
+  cursor: pointer;
+}
+
+.used-car:hover {
+  color: #595959;
 }
 
 .part-time-job {
   font-size: 14px;
   margin-bottom: 8px;
+  cursor: pointer;
+}
+
+.part-time-job:hover {
+  color: #595959;
 }
 
 .local-business {
   font-size: 14px;
   margin-bottom: 8px;
+  cursor: pointer;
+}
+
+.local-business:hover {
+  color: #595959;
 }
 
 .neighborhood-life {
   font-size: 14px;
   margin-bottom: 8px;
+  cursor: pointer;
 }
+
+.neighborhood-life:hover {
+  color: #595959;
+}
+
 
 .group-meeting {
   font-size: 14px;
   margin-bottom: 8px;
+  cursor: pointer;
+}
+
+.group-meeting:hover {
+  color: #595959;
 }
 
 .chat-window {
   font-size: 14px;
   margin-bottom: 8px;
+  cursor: pointer;
+}
+
+.chat-window:hover {
+  color: #595959;
 }
