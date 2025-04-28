@@ -1,3 +1,8 @@
+body {
+  white-space: nowrap;
+}
+
+
 .header {
   padding: 0 80px;
   /* 상하는 0, 좌우는 80px */
