@@ -288,7 +288,9 @@ body {
   margin-bottom: 24px;
 }
 
-.footer-sns-cotainer {}
+.footer-sns-cotainer {
+
+}
 
 .footerFacebook {
   font-size: 24px;
@@ -306,11 +308,12 @@ body {
 
 .footer-sns-nav-container {
   display: flex;
+  justify-content: space-between;
   padding: 64px 0px;
 }
 
 .footer-logo-nav-container {
-  margin-right: 300px;
+  /* margin-right: 300px; */
 }
 
 .footer-nav-company {
@@ -526,7 +529,7 @@ body {
 .footer-language-container {
   display: flex;
   flex-direction: column;
-  margin-right: 100px;
+  /* margin-right: 100px; */
 }
 
 .footer-karrot {
